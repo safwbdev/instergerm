@@ -1,0 +1,29 @@
+{
+  "name": "instergerm",
+  "version": "1.0.0",
+  "description": "ermahgerd instergerm",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safwbdev/instergerm.git"
+  },
+  "author": "Stefaan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safwbdev/instergerm/issues"
+  },
+  "homepage": "https://github.com/safwbdev/instergerm#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
